@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.main-container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    margin: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.about {
+    margin-top: 0;
+    padding-bottom: 56px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.about-me {
+    padding-bottom: 16px;
+}
+
+.button-green {
+    text-decoration: none;
+    background-color: #00917c;
+    font-weight: bold;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.button-green:hover {
+    background-color: #314E52;
+}
+
+.button-white {
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #314e52;
+    border: 1px solid #314e52;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.button-white:hover {
+    background-color: #314e52;
+    color: white;
+}
+
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: #433620;
+    font-size: 24px;
+}
+
+h2 {
+    color: #314E52;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    color: #535353;
+    margin: 32px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 40px;
+    margin: 8px;
+}
+
+li .social {
+    font-size: 28px;
+    color: #433520;
+    margin: 12px;
+}
+
+li .social:hover {
+    color: #00917c;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(25, 25, 25);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.link:hover {
+    font-weight: bold;
+}
+
+.footer {
+    padding-top: 60px;
+}
+
+.header {
+    text-align: right;
+    margin-right: 24px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    color: #535353;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: #00917c;
+}
+
+
+@media (max-width: 960px) {
+    .main-container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .main-container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .main-container {
+        width: 300px;
+    }
+}
