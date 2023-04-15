@@ -162,6 +162,25 @@ li .social:hover {
     color: #00917c;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* THIS MEDIA QUERY WILL NOT SHOW STUPID TRANSITION OVER AND OVER AGAIN */
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
 
 @media (max-width: 960px) {
     .main-container {
