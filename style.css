@@ -1,197 +1,252 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .main-container {
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .container {
-    background-color: white;
-    padding: 40px;
-    margin: 24px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  background-color: white;
+  padding: 40px;
+  margin: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .about {
-    margin-top: 0;
-    padding-bottom: 56px;
+  margin-top: 0;
+  padding-bottom: 56px;
 }
 
 img {
-    border-radius: 50%;
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 1.8s;
+  border-radius: 50%;
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 1.8s;
 }
 
 .about-me {
-    padding-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .button-green {
-    text-decoration: none;
-    background-color: #00917c;
-    font-weight: bold;
-    color: white;
-    padding: 8px 24px;
-    border-radius: 8px;
-    font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+  background-color: #00917c;
+  font-weight: bold;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .button-green:hover {
-    background-color: #314E52;
+  background-color: #314e52;
 }
 
 .button-white {
-    text-decoration: none;
-    background-color: transparent;
-    font-weight: bold;
-    color: #314e52;
-    border: 1px solid #314e52;
-    padding: 8px 24px;
-    border-radius: 8px;
-    font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: bold;
+  color: #314e52;
+  border: 1px solid #314e52;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .button-white:hover {
-    background-color: #314e52;
-    color: white;
+  background-color: #314e52;
+  color: white;
 }
 
 .header-text {
-    font-family: 'Nunito Sans', sans-serif;
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 0.7s;
+  font-family: "Nunito Sans", sans-serif;
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
 }
 
 .header-body {
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-   animation-delay: 1.4s;
-   font-size: 28px;
-    margin-top: 8px;
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 1.4s;
+  font-size: 28px;
+  margin-top: 8px;
 }
 
 h1,
 h2 {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h1 {
-    color: #222518;
-    font-size: 84px;
-    margin-bottom: 32px;
+  color: #222518;
+  font-size: 84px;
+  margin-bottom: 32px;
 }
 
 h2 {
-    color: #314E52;
-    font-size: 28px;
-    padding-bottom: 16px;
+  color: #314e52;
+  font-size: 28px;
+  padding-bottom: 16px;
 }
 
 p {
-    font-family: 'Work Sans', sans-serif;
-    color: #535353;
-    margin: 32px 0;
+  font-family: "Work Sans", sans-serif;
+  color: #535353;
+  margin: 32px 0;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 li {
-    display: inline-block;
-    font-size: 40px;
-    margin: 8px;
+  display: inline-block;
+  font-size: 40px;
+  margin: 8px;
 }
 
 li .social {
-    font-size: 28px;
-    color: #433520;
-    margin: 12px;
+  font-size: 28px;
+  color: #433520;
+  margin: 12px;
 }
 
 li .social:hover {
-    color: #00917c;
+  color: #00917c;
 }
 
 .link {
-    text-decoration: none;
-    color: rgb(25, 25, 25);
-    font-size: 16px;
-    font-weight: normal;
+  text-decoration: none;
+  color: rgb(25, 25, 25);
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .link:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .footer {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .header {
-    text-align: right;
-    margin-right: 24px;
+  text-align: right;
+  margin-right: 24px;
 }
 
 .header a {
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Work Sans', sans-serif;
-    color: #535353;
-    font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  color: #535353;
+  font-weight: bold;
 }
 
 .header a:hover {
-    color: #00917c;
+  color: #00917c;
 }
 
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.logo:nth-child(2) {
+  transition-delay: 200ms;
+}
+.logo:nth-child(3) {
+  transition-delay: 400ms;
+}
+.logo:nth-child(4) {
+  transition-delay: 600ms;
+}
+.logo:nth-child(5) {
+  transition-delay: 800ms;
+}
+.logo:nth-child(6) {
+  transition-delay: 1000ms;
+}
+.logo:nth-child(7) {
+  transition-delay: 1200ms;
+}
+.logo:nth-child(8) {
+  transition-delay: 1400ms;
+}
+.logo:nth-child(9) {
+  transition-delay: 1500ms;
+}
+/* THIS MEDIA QUERY WILL NOT SHOW STUPID TRANSITION OVER AND OVER AGAIN */
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
 
 @media (max-width: 960px) {
-    .main-container {
-        width: 700px;
-    }
+  .main-container {
+    width: 700px;
+  }
 }
 
 @media (max-width: 720px) {
-    .main-container {
-        width: 500px;
-    }
+  .main-container {
+    width: 500px;
+  }
 }
 
 @media (max-width: 540px) {
-    .main-container {
-        width: 300px;
-    }
+  .main-container {
+    width: 300px;
+  }
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
   }
-  
-  @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  100% {
+    opacity: 1;
   }
-  
-  @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
