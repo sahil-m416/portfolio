@@ -57,6 +57,35 @@ img {
   font-family: "Work Sans", sans-serif;
 }
 
+#change-photo-btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: #00917c;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 2.1s;
+  transition: opacity 0.3s ease;
+}
+
+#change-photo-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+#profile-image {
+  transition: opacity 0.3s ease;
+}
+
+#profile-image.fading {
+  opacity: 0.5;
+}
+
 .button-green-black {
   text-decoration: none;
   background-color: #00231e;
