@@ -13,7 +13,7 @@ toggleThemeButton.addEventListener("click", toggleTheme )
 const changePhotoBtn = document.getElementById("change-photo-btn");
 const profileImage = document.getElementById("profile-image");
 const profileImages = ["images/profile.jpg", "images/profile2.jpg", "images/profile3.jpg", "images/profile4.jpg"];
-let currentImageIndex = 1; // Start with profile2.jpg (index 1)
+let currentImageIndex = 3; // Start with profile2.jpg (index 1)
 
 changePhotoBtn.addEventListener("click", () => {
   currentImageIndex = (currentImageIndex + 1) % profileImages.length;
